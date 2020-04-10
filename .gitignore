@@ -1,0 +1,22 @@
+# ignore all logs
+*.log
+
+# prerequisites
+*.d
+
+# ignore all executables
+*.exe
+*.out
+
+# ignore all object files
+*.o
+
+#
+.buildmode
+
+# ignore ctags files
+*tags
+
+# MacOS files
+*.DS_Store
+

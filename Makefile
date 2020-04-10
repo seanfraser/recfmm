@@ -6,8 +6,10 @@ CC = clang
 
 # TBBLOC = /opt/intel/composer_xe_2015/tbb
 # TBBLIB = $(TBBLOC)/lib/intel64/gcc4.4
-TBBLOC = /usr/local/tbb44_20151115oss
-TBBLIB = $(TBBLOC)/lib
+# TBBLOC = /usr/local/tbb44_20151115oss
+# TBBLIB = $(TBBLOC)/lib
+TBBLOC = /usr/local/include/tbb
+TBBLIB = /usr/local/lib
 
 export
 
