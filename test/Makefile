@@ -2,7 +2,7 @@
 
 INCLUDE = -I../include -I$(TBBLOC)/include 
 LIBS = -L$(TBBLIB) -ltbbmalloc -lcilkrts -lm
-FLAGS = -O3 -std=gnu99 -DUSING_CILK -D$(CC) $(INCLUDE) 
+FLAGS = -O3 -Wall -std=gnu99 -DUSING_CILK -D$(CC) $(INCLUDE) 
 FCFLAGS = -O3
 
 EXEC = fmm

@@ -1,7 +1,7 @@
 # src MAkefile
 
 INCLUDE = -I../include -I$(TBBLOC)/include
-FLAGS = -O3 -std=gnu99 -DUSING_CILK -D$(CC) $(INCLUDE)
+FLAGS = -O3 -Wall -std=gnu99 -DUSING_CILK -D$(CC) $(INCLUDE)
 
 FCFLAGS = -O3
 LIB_LAP = libadap_laplace.a

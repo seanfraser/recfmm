@@ -1,5 +1,5 @@
-CC      = icc
-CCFLAGS = -std=gnu99 -Wall -pedantic -DLAPLACE -DUSING_CILK -g
+CC      = clang
+CCFLAGS = -std=gnu99 -Wall -fcilkplus -DLAPLACE -DUSING_CILK -g
 INCLUDE = -I../include
 LIBS    = -lcilkrts -ltbbmalloc -L../lib -ladap_laplace
 EXEC    = example
